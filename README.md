@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+#### _By ***Dorwin Liang***_
 
 ---
 ## Git vs. GitHub
