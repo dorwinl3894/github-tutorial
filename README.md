@@ -18,10 +18,10 @@ computer.
 * Contribute to other people's code
 * Learn from other programmers
 
-**Q:** So what's the difference between Git and Github?  
-**A:** Git is a software tool used to control versions of your code and Github is a 
-service website that helps you store the code in a repository.
+#### **Q:**  So what's the difference between Git and Github?  
+#### **A:**  Git is a software tool used to control versions of your code and Github is a service website that helps you store the code in a repository.
 ---
+
 ## Initial Setup
 
 
