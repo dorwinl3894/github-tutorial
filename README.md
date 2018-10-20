@@ -201,4 +201,6 @@ if (user.rating instanceof Number && user.rating >= 5) {
   console.log("💩");
 }
 ```
-<img style="border: 7px solid gray" src="https://sites.google.com/a/hstat.org/josiahe2793sep10/_/rsrc/1442438872454/home/hstatSep-logo-small.png">
+<div style="display: flex; flex-direction: row; justify-content: center; align-items:center">
+  <img style="border: 5px solid gray;" src="https://camo.githubusercontent.com/12b03c8a98780179b57aa7ec9a1d10877d0d05e5/68747470733a2f2f73697465732e676f6f676c652e636f6d2f612f68737461742e6f72672f6a6f73696168653237393373657031302f5f2f727372632f313434323433383837323435342f686f6d652f68737461745365702d6c6f676f2d736d616c6c2e706e67" align="right" width="500" >
+</div>
