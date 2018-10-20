@@ -80,6 +80,11 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 ***Q:*** Oops, I accidently `git init` in the wrong directory! How do I remove Git from the repo?  
 ***A:*** type in `rm -rf .git` in the directory that you accidently put Git in.
 
+***Q:*** I hate this repository. How do i remove it?  
+***A:*** First type in `cd ~/workspace` then type in `rm-rf <repo-name>`
+
+***Q:*** How do I remove a repository from my Github?  
+***A:*** go to [github.com](https://github.com) , click inside your repository, then go to settings, scroll down to "Danger zone" and click "Delete this repository".
 ##### Congratulations! You now have a directory with Git inside. 🔥
 
 #### Making a file in Cloud9
