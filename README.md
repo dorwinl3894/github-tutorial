@@ -1,6 +1,6 @@
-# GitHub Tutorial
+# 🔥GitHub Tutorial🔥
 
-#### _By ***Dorwin Liang***_
+#### _By ***Dorwin Liang***_ 
 
 ---
 ## Git vs. GitHub
@@ -39,7 +39,7 @@ computer.
 5. Set up your new workspace; The template should be "Blank"
 6. Press "Create Workspace"
 
-##### Congratulations! You now have a workspace in Cloud9 to program in.
+##### Congratulations! You now have a workspace in Cloud9 to program in. 🔥
 
 
 
@@ -62,7 +62,7 @@ computer.
 13. If you do not see a console , go to "View" and click on "Console F6"
 14. Type in "ssh -T git@github.com" into the command line
 
-##### Congratulations! You just connected Cloud9 and Github.
+##### Congratulations! You just connected Cloud9 and Github. 🔥
 
 ---
 ## Repository Setup
@@ -77,7 +77,10 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 
 5. Finally type in `git init` . This command is from Git, and allows you to initialize Git into your repository so that you can use git commands in your directory.
 
-##### Congratulations! You now have a directory with Git inside.
+***Q:*** Oops, I accidently `git init` in the wrong directory! How do I remove Git from the repo?  
+***A:*** type in `rm -rf .git` in the directory that you accidently put Git in.
+
+##### Congratulations! You now have a directory with Git inside. 🔥
 
 #### Making a file in Cloud9
 In every directory, there should be a README.md file, so that's what you will be making
@@ -97,7 +100,7 @@ In every directory, there should be a README.md file, so that's what you will be
 ***Q:*** How do I know that I did this correct and my directory is actually connected to my Github directory?  
 ***A:*** type in `git remote -v` into the command line. You should see `origin git@github.com:username/filename.git`. If you don't type in `git remote rm origin` to delete the connection and try the steps again.
 
-##### Congratulations! You now know how to make a file and connect it to Github.
+##### Congratulations! You now know how to make a file and connect it to Github. 🔥
 
 ---
 ## Workflow & Commands
@@ -138,7 +141,7 @@ In every directory, there should be a README.md file, so that's what you will be
 6. type in `cd ~/workspace`
 7. On the command line, type in `git clone <https-link-to-someones-repository>`  
 
-##### Congrats! You now have someone elses repository in your local workspace!
+##### Congrats! You now have someone elses repository in your local workspace! 🔥
 
 #### Forking
 * Forking makes a remote copy of their remote repository so that you can work on it ***and*** push it to your Github.
@@ -160,7 +163,7 @@ In every directory, there should be a README.md file, so that's what you will be
 3. Click on "New Pull Requests"
 4. Press "Create pull requests"
 
-##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not.
+##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not. 🔥
 
 ---
 ```javascript
@@ -168,7 +171,7 @@ if(user = EnjoyedTutorial) {
     console.log("Thanks for reading");
 
 }
-else{
-    console.log("💩")
+else {
+    console.log("💩");
 }
 ```
