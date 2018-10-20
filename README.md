@@ -129,22 +129,29 @@ In every directory, there should be a README.md file, so that's what you will be
 
 
 #### `git clone` 
-* This command will clone someones repository into your local workspace.
+* This command will clone someones repository into your local workspace. You can not `git push` it into your github.
 1. Go to someones repository via github.com
 2. Choose a repository that you want to clone
-3. Press the green button that says "Clone or download"  
-4. Go to your workspace
-5. type in `cd ~/workspace`
-6. On the command line, type in `git clone <https-link-to-someones-repository>`  
+3. Press the green button that says "Clone or download" 
+4. copy and paste the link
+5. Go to your workspace
+6. type in `cd ~/workspace`
+7. On the command line, type in `git clone <https-link-to-someones-repository>`  
 
-Congrats! You now have someone elses repository in your local workspace!
+##### Congrats! You now have someone elses repository in your local workspace!
 
 #### `git pull`
 * 
 
-#### forking
-* Forking makes a remote copy of their remote repository so that you can work on it. 
+#### Forking
+* Forking makes a remote copy of their remote repository so that you can work on it ***and*** push it to your Github.
 
 1. Go to a user's repository that you want to work on.
 2. On the top right of their repository, there is a "fork" button. Click it
-3. Now click on "Clone or "
+3. Now click on "Clone or download"
+4. copy and paste the link
+5. type in `git clone <https-link-to-someones-repository>` in the command line.
+6. Work on the repository
+7. `git add` , then `git commit -m` and `git push`. 
+
+##### Congrats! You now have a Github repository of someone elses repository!
