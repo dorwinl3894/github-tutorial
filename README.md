@@ -1,4 +1,5 @@
 # 🔥GitHub Tutorial🔥
+![Github Logo](https://assets-cdn.github.com/images/modules/open_graph/github-mark.png)
 
 #### _By ***Dorwin Liang***_ 
 
@@ -28,6 +29,8 @@ computer.
 2. Press "sign up for Github"
 3. Enter your info
 4. Press "create an account"
+
+![Signup](signup.png)
 
 ##### Congratulations! Now you have a Github account. 🔥
 
