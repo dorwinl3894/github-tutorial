@@ -201,5 +201,4 @@ if (user.rating instanceof Number && user.rating >= 5) {
   console.log("💩");
 }
 ```
-
-![hstatsep](https://sites.google.com/a/hstat.org/josiahe2793sep10/_/rsrc/1442438872454/home/hstatSep-logo-small.png)
+<img style="border: 7px solid gray" src="https://sites.google.com/a/hstat.org/josiahe2793sep10/_/rsrc/1442438872454/home/hstatSep-logo-small.png">
