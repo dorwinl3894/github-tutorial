@@ -101,6 +101,9 @@ In every directory, there should be a README.md file, so that's what you will be
 
 ---
 ## Workflow & Commands
+***Q:*** Cool! Can I have a list of Git commands that will help me?  
+***A:*** Yes  
+* `git status` - checks to see if there are any modified files in the directory that you ar currently on. If there are modified files, the file will show in red. If not, 
 
 
 
