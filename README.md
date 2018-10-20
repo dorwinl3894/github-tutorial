@@ -54,7 +54,7 @@ computer.
 4. Under "Personal Settings", click on "SSH and GPG keys"
 5. Click on "New SSH Key"
 6. Name it whatever you want; preferably "Cloud9"  
-~[SSH key](sshkey.png)
+![SSH key](sshkey.png)  
 7. ***DO NOT*** Click "Add New SSH Key"
 5. [Go back to Cloud9](https://c9.io/)
 6. In the top right corner, there is a gear icon, click that
@@ -157,8 +157,10 @@ In every directory, there should be a README.md file, so that's what you will be
 * Forking makes a remote copy of their remote repository so that you can work on it ***and*** push it to your Github.
 
 1. Go to a user's repository that you want to work on.
-2. On the top right of their repository, there is a "fork" button. Click it
-3. Now click on "Clone or download"
+2. On the top right of their repository, there is a "fork" button. Click it  
+![fork](fork.png)
+3. Now click on "Clone or download"  
+![clone](cloneordownload.png)  
 4. copy and paste the link
 5. type in `git clone <https-link-to-someones-repository>` in the command line.
 6. Work on the repository
@@ -169,8 +171,10 @@ In every directory, there should be a README.md file, so that's what you will be
 #### pull request
 * This is used to request a change to someone elses repository so that they can add it to their original repository
 1. Go to someones repository.
-2. Click on the third tab "Pull Requests"
-3. Click on "New Pull Requests"
+2. Click on the third tab "Pull Requests"  
+![pullrequest](pullrequest.png)  
+3. Click on "New Pull Requests"  
+![newpull](newpull.png)  
 4. Press "Create pull requests"
 
 ##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not. 🔥
