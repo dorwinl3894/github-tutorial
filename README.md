@@ -1,7 +1,7 @@
 # 🔥GitHub Tutorial🔥
 ![Github Logo](https://assets-cdn.github.com/images/modules/open_graph/github-mark.png)
 
-#### _By ***Dorwin Liang***_ 
+#### _By ***dorwinl3894***_ 
 
 ---
 ## Git vs. GitHub 🌍
