@@ -30,15 +30,16 @@ computer.
 3. Enter your info
 4. Press "create an account"
 
-![Signup](signup.png)
+
 
 ##### Congratulations! Now you have a Github account. 🔥
 
 #### Setting up a Cloud9 workspace
 1. [Go to c9.io/login](https://c9.io/login)
-2. In the bottom, you should see a logo of Github. 
-3. Enter your Github information.
-4. Now you should see a section that says "Create a New Workspace" with a plus sign in the middle.
+2. In the bottom, you should see a logo of Github.  
+![Signup](c9iologin.png)  
+3. Enter your Github information.  
+4. Now you should see a section that says "Create a New Workspace" with a plus sign in the middle.  
 5. Set up your new workspace; The template should be "Blank"
 6. Press "Create Workspace"
 
@@ -52,7 +53,8 @@ computer.
 3. Go to settings
 4. Under "Personal Settings", click on "SSH and GPG keys"
 5. Click on "New SSH Key"
-6. Name it whatever you want; preferably "Cloud9"
+6. Name it whatever you want; preferably "Cloud9"  
+~[SSH key](sshkey.png)
 7. ***DO NOT*** Click "Add New SSH Key"
 5. [Go back to Cloud9](https://c9.io/)
 6. In the top right corner, there is a gear icon, click that
@@ -175,11 +177,23 @@ In every directory, there should be a README.md file, so that's what you will be
 
 ---
 ```javascript
-if(user = EnjoyedTutorial) {
-    console.log("Thanks for reading");
-
+class Reader extends Human {
+  constructor(you) {
+    super(you);
+    this.rating = null;
+  }
+  
+  setRating(rating) {
+    this.rating = rating;
+    return this.rating;
+  }
 }
-else {
-    console.log("💩");
+  
+const user = new Reader();
+  
+if (user.rating instanceof Number && user.rating >= 5) {
+  console.log(`${"⭐".repeat(user.rating)} Thanks for reading!`);
+} else {
+  console.log("💩");
 }
 ```
