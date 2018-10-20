@@ -31,7 +31,7 @@ computer.
 
 ##### Congratulations! Now you have a Github account.
 
-#### Setting up an SSH key onto your IDE (I am using Cloud9)
+#### Setting up a Cloud9 workspace
 1. [Go to c9.io/login](https://c9.io/login)
 2. In the bottom, you should see a logo of Github. 
 3. Enter your Github information.
@@ -41,17 +41,45 @@ computer.
 
 ##### Congratulations! You now have a workspace in Cloud9 to program in.
 
-####
-
-https://docs.google.com/presentation/d/1hNJcKlLHdu2Jnc2bRs5t3tEUaDsmVKs2FxJeFqSF3JQ/edit#slide=id.g176607be6e_0_15
-
-https://docs.google.com/presentation/d/1O6VT_zPHYZ25rCKe1WCPF5WjY_Nkw3D-hP4u2wh0Mp4/edit#slide=id.gca84eb59e_0_11
 
 
+#### Setting up an SSH key between Github and Cloud9
+1. [Go to github.com](https://github.com)
+2. Click on your profile logo
+3. Go to settings
+4. Under "Personal Settings", click on "SSH and GPG keys"
+5. Click on "New SSH Key"
+6. Name it whatever you want; preferably "Cloud9"
+7. ***DO NOT*** Click "Add New SSH Key"
+5. [Go back to Cloud9](https://c9.io/)
+6. In the top right corner, there is a gear icon, click that
+7. Go to "SSH Keys"
+8. Copy the whole "Connect to your private git repository" key
+9. Go back to your Github tab
+10. Copy the key where it says "key"
+11. Now press "Add SSH key"
+12. Go back to Cloud9 and go inside your workspace
+13. If you do not see a console , go to "View" and click on "Console F6"
+14. Type in "ssh -T git@github.com" into the command line
 
+##### Congratulations! You just connected Cloud9 and Github.
 
 ---
 ## Repository Setup
+Now that you have a workspace and a SSH connection between Github and Cloud9, lets make your first repository.
+1. Be in the command line
+
+2. type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory wher you will put all of your other directories into.
+
+3. Now type in `mkdir first-repo` . `mkdir` stands for "make directory" and if you can't tell, it makes a directory. Whatever we type after `mkdir` is a name. So in our case, `first-repo` is the name of the new directory we just made.
+
+4. Next `cd` into your newly made repository by typing in `cd first-repo`. 
+
+5. Finally type in `git init` . This command is from Git, and allows you to initialize Git into your repository so that you can use git commands in your directory.
+
+##### Congratulations! You now have a directory with Git inside.
+
+
 
 
 
