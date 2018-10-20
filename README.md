@@ -123,7 +123,7 @@ In every directory, there should be a README.md file, so that's what you will be
 * `git log` - gives a list of your commits. 
 
 ---
-## Rolling Back Changes
+## Rolling Back Changes ◀️
 ***Q:*** How do I undo an edit?  
 ***A:*** `git checkout -- <filename>`
 
@@ -201,3 +201,5 @@ if (user.rating instanceof Number && user.rating >= 5) {
   console.log("💩");
 }
 ```
+
+![hstatsep](https://sites.google.com/a/hstat.org/josiahe2793sep10/_/rsrc/1442438872454/home/hstatSep-logo-small.png)
