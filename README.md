@@ -103,9 +103,48 @@ In every directory, there should be a README.md file, so that's what you will be
 ## Workflow & Commands
 ***Q:*** Cool! Can I have a list of Git commands that will help me?  
 ***A:*** Yes  
-* `git status` - checks to see if there are any modified files in the directory that you ar currently on. If there are modified files, the file will show in red. If not, 
-
-
+* `git status` - checks to see if there are any modified files in the directory that you ar currently on. If there are modified files, the file will show in red. If not, you are good to go.
+* `git add <filename>` -  this adds a file to the "staging area" to be commited and pushed to your Github repository. 
+* `git commit -m <message>` - this commits your file. In simple terms, it takes a snapshot of your code so that you can go back to it , or it can be used as a checkpoint for your progress.
+* `git push` - this pushes the file you are currently at to Github. When you type in `git push` you can then see your new file on Github and check your commmits. 
+* `git log` - gives a list of your commits. 
 
 ---
 ## Rolling Back Changes
+***Q:*** How do I undo an edit?  
+***A:*** `git checkout -- <filename>`
+
+***Q:*** I typed in `git add <filename>` and now I don't want it to be added to the staging area. Help!  
+***A:*** `git reset HEAD <filename>` 
+
+***Q:***  I typed in `git commit` and I don't need to commit yet. How do i revert this?  
+***A:*** `git reset HEAD~1` removes your commit and file from the staging area.
+
+***Q:*** How do I rollback my file that I pushed to Github?  
+***A:*** `git push -f origin <filename>` This will remove your last pushed commit entirely.
+
+---
+## Collaborating with others
+>"Collaboration is the key to success" - dorwinl3894  
+
+
+#### `git clone` 
+* This command will clone someones repository into your local workspace.
+1. Go to someones repository via github.com
+2. Choose a repository that you want to clone
+3. Press the green button that says "Clone or download"  
+4. Go to your workspace
+5. type in `cd ~/workspace`
+6. On the command line, type in `git clone <https-link-to-someones-repository>`  
+
+Congrats! You now have someone elses repository in your local workspace!
+
+#### `git pull`
+* 
+
+#### forking
+* Forking makes a remote copy of their remote repository so that you can work on it. 
+
+1. Go to a user's repository that you want to work on.
+2. On the top right of their repository, there is a "fork" button. Click it
+3. Now click on "Clone or "
