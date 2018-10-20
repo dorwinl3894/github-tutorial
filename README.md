@@ -140,9 +140,6 @@ In every directory, there should be a README.md file, so that's what you will be
 
 ##### Congrats! You now have someone elses repository in your local workspace!
 
-#### `git pull`
-* 
-
 #### Forking
 * Forking makes a remote copy of their remote repository so that you can work on it ***and*** push it to your Github.
 
@@ -155,3 +152,23 @@ In every directory, there should be a README.md file, so that's what you will be
 7. `git add` , then `git commit -m` and `git push`. 
 
 ##### Congrats! You now have a Github repository of someone elses repository!
+
+#### pull request
+* This is used to request a change to someone elses repository so that they can add it to their original repository
+1. Go to someones repository.
+2. Click on the third tab "Pull Requests"
+3. Click on "New Pull Requests"
+4. Press "Create pull requests"
+
+##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not.
+
+---
+```javascript
+if(user = EnjoyedTutorial) {
+    console.log("Thanks for reading");
+
+}
+else{
+    console.log("💩")
+}
+```
