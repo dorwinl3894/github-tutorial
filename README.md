@@ -79,9 +79,25 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 
 ##### Congratulations! You now have a directory with Git inside.
 
+#### Making a file in Cloud9
+In every directory, there should be a README.md file, so that's what you will be making
+1. type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
+2. Open your first-repo directory and go into the README.md file.
+3. Type in whatever you want; could be "woigjmwaogw" or "Hello World!"
+4. type in ctrl + S to save your file
+5. Go back to the command line and type in `git add README.md`. This adds the file to the staging area to be sent to Github. 
+6. Now type in `git commit -m "Create README file"`. `git commit -m` is a Git command to commit the changes that you made in the file. The text in the quoation marks has to be related to what you changed. 
+7. [Go back to github.com](https://github.com)
+8. Click on the plus icon 
+9. Press "New Repository".
+10. Name the repository into the ***same exact name*** as your directory. In this case, it is "first-repo".
+11. Press "Create Repository". 
+12. Under the section "...or push an existing repository from the command line" , copy the `git remote add origin` command into your command line and press enter. Then copy and paste the `git push -u origin master` into your command line. These two commands create a connection between your new directory on Github and Cloud9 and pushes your file into your Github repository.
 
+***Q:*** How do I know that I did this correct and my directory is actually connected to my Github directory?  
+***A:*** type in `git remote -v` into the command line. You should see `origin git@github.com:username/filename.git`. If you don't type in `git remote rm origin` to delete the connection and try the steps again.
 
-
+##### Congratulations! You now know how to make a file and connect it to Github.
 
 ---
 ## Workflow & Commands
