@@ -3,7 +3,7 @@
 #### _By ***Dorwin Liang***_ 
 
 ---
-## Git vs. GitHub
+## Git vs. GitHub 🌍
 
 **Git** - a version control system software that is used to collaborate
 with other people and track changes in your code. This program is used primarily to
@@ -22,14 +22,14 @@ computer.
 #### **A:**  Git is a software tool used to control versions of your code and Github is a service website that helps you store the code in a repository.
 
 ---
-## Initial Setup
+## Initial Setup 🌈
 #### Setting up Github
 1. [Go to Github.com](https://github.com/)
 2. Press "sign up for Github"
 3. Enter your info
 4. Press "create an account"
 
-##### Congratulations! Now you have a Github account.
+##### Congratulations! Now you have a Github account. 🔥
 
 #### Setting up a Cloud9 workspace
 1. [Go to c9.io/login](https://c9.io/login)
@@ -43,7 +43,7 @@ computer.
 
 
 
-#### Setting up an SSH key between Github and Cloud9
+#### Setting up an SSH key between Github and Cloud9  
 1. [Go to github.com](https://github.com)
 2. Click on your profile logo
 3. Go to settings
@@ -65,7 +65,7 @@ computer.
 ##### Congratulations! You just connected Cloud9 and Github. 🔥
 
 ---
-## Repository Setup
+## Repository Setup 🔅
 Now that you have a workspace and a SSH connection between Github and Cloud9, lets make your first repository.
 1. Be in the command line
 
@@ -87,7 +87,7 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 ***A:*** go to [github.com](https://github.com) , click inside your repository, then go to settings, scroll down to "Danger zone" and click "Delete this repository".
 ##### Congratulations! You now have a directory with Git inside. 🔥
 
-#### Making a file in Cloud9
+#### Making a file in Cloud9 
 In every directory, there should be a README.md file, so that's what you will be making
 1. type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
 2. Open your first-repo directory and go into the README.md file.
@@ -108,7 +108,7 @@ In every directory, there should be a README.md file, so that's what you will be
 ##### Congratulations! You now know how to make a file and connect it to Github. 🔥
 
 ---
-## Workflow & Commands
+## Workflow & Commands 🌊
 ***Q:*** Cool! Can I have a list of Git commands that will help me?  
 ***A:*** Yes  
 * `git status` - checks to see if there are any modified files in the directory that you ar currently on. If there are modified files, the file will show in red. If not, you are good to go.
@@ -132,8 +132,8 @@ In every directory, there should be a README.md file, so that's what you will be
 ***A:*** `git push -f origin <filename>` This will remove your last pushed commit entirely.
 
 ---
-## Collaborating with others
->"Collaboration is the key to success" - dorwinl3894  
+## Collaborating with others 💑
+>"Collaboration is the key to success" - dorwinl3894 🚪🏆
 
 
 #### `git clone` 
