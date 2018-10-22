@@ -72,7 +72,7 @@ computer.
 Now that you have a workspace and a SSH connection between Github and Cloud9, lets make your first repository.
 1. Be in the command line  
 ![command line](commandline.png)
-2. type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory wher you will put all of your other directories into.
+2. type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory where you will put all of your other directories into.
 
 3. Now type in `mkdir first-repo` . `mkdir` stands for "make directory" and if you can't tell, it makes a directory. Whatever we type after `mkdir` is a name. So in our case, `first-repo` is the name of the new directory we just made.
 
@@ -95,7 +95,7 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 In every directory, there should be a README.md file, so that's what you will be making
 1. type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
 2. Open your first-repo directory and go into the README.md file.
-3. Type in whatever you want; could be "woigjmwaogw" or "Hello World!"
+3. Type in whatever you want; it could be "woigjmwaogw" or "Hello World!"
 4. type in ctrl + S to save your file
 5. Go back to the command line and type in `git add README.md`. This adds the file to the staging area to be sent to Github. 
 6. Now type in `git commit -m "Create README file"`. `git commit -m` is a Git command to commit the changes that you made in the file. The text in the quoation marks has to be related to what you changed. 
