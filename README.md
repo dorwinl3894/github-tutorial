@@ -70,8 +70,8 @@ computer.
 ---
 ## Repository Setup 🔅
 Now that you have a workspace and a SSH connection between Github and Cloud9, lets make your first repository.
-1. Be in the command line
-
+1. Be in the command line  
+![command line](commandline.png)
 2. type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory wher you will put all of your other directories into.
 
 3. Now type in `mkdir first-repo` . `mkdir` stands for "make directory" and if you can't tell, it makes a directory. Whatever we type after `mkdir` is a name. So in our case, `first-repo` is the name of the new directory we just made.
@@ -144,7 +144,8 @@ In every directory, there should be a README.md file, so that's what you will be
 * This command will clone someones repository into your local workspace. You can not `git push` it into your github.
 1. Go to someones repository via github.com
 2. Choose a repository that you want to clone
-3. Press the green button that says "Clone or download" 
+3. Press the green button that says "Clone or download"  
+![clone](cloneordownload.png)
 4. copy and paste the link
 5. Go to your workspace
 6. type in `cd ~/workspace`
