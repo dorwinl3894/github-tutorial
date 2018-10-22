@@ -1,4 +1,4 @@
-# 🔥GitHub Tutorial🔥
+# 🔥Github Tutorial🔥
 ![Github Logo](https://assets-cdn.github.com/images/modules/open_graph/github-mark.png)
 
 #### _By ***dorwinl3894***_ 
@@ -10,8 +10,6 @@
 with other people and track changes in your code. This program is used primarily to
 track your code in Github, but Git can be used without Github, such as in your 
 computer.  
-  
-  You can access the Git terminal by
 
 **Github** - A website developed by Github Inc. that can be used to...   
 * Store your code
@@ -55,7 +53,7 @@ computer.
 5. Click on "New SSH Key"
 6. Name it whatever you want; preferably "Cloud9"  
 ![SSH key](sshkey.png)  
-7. ***DO NOT*** Click "Add New SSH Key"
+7. <span style="color:red">***DO NOT*** </span> Click "Add New SSH Key" yet
 5. [Go back to Cloud9](https://c9.io/)
 6. In the top right corner, there is a gear icon, click that
 7. Go to "SSH Keys"
@@ -82,6 +80,7 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 
 5. Finally type in `git init` . This command is from Git, and allows you to initialize Git into your repository so that you can use git commands in your directory.
 
+##### Error Handling
 ***Q:*** Oops, I accidently `git init` in the wrong directory! How do I remove Git from the repo?  
 ***A:*** type in `rm -rf .git` in the directory that you accidently put Git in.
 
@@ -178,6 +177,7 @@ In every directory, there should be a README.md file, so that's what you will be
 4. Press "Create pull requests"
 
 ##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not. 🔥
+
 
 ---
 
