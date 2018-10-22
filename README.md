@@ -180,25 +180,5 @@ In every directory, there should be a README.md file, so that's what you will be
 ##### Congrats! Now you have submitted your code and it is up to the user whether they want to use that code or not. 🔥
 
 ---
-```javascript
-class Reader extends Human {
-  constructor(you) {
-    super(you);
-    this.rating = null;
-  }
-  
-  setRating(rating) {
-    this.rating = rating;
-    return this.rating;
-  }
-}
-  
-const user = new Reader();
-  
-if (user.rating instanceof Number && user.rating >= 5) {
-  console.log(`${"⭐".repeat(user.rating)} Thanks for reading!`);
-} else {
-  console.log("💩");
-}
-```
+
 <div style="text-align:center"><img src ="https://camo.githubusercontent.com/12b03c8a98780179b57aa7ec9a1d10877d0d05e5/68747470733a2f2f73697465732e676f6f676c652e636f6d2f612f68737461742e6f72672f6a6f73696168653237393373657031302f5f2f727372632f313434323433383837323435342f686f6d652f68737461745365702d6c6f676f2d736d616c6c2e706e67" /></div>
